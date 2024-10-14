@@ -1,0 +1,23 @@
+CHG0168951-OS Upgrade.. reference change.
+For the OS Upgrade Task Steps:
+Open the Service Catalog.
+Select OS In-Place Upgrade (Windows).
+Fill in the required details: Vcenter name, Hostname, Downtime, ISO path, and OS name.
+Submit the request; this will generate an RITM with a Change Request number.
+Please forward the RITM to the technical approver (Venu).Put the server in maintainance mood manually by maintainance schedules.
+For the OS Upgrade Task Steps:
+First, check the available space on the C drive; ensure there is a minimum of 35GB.
+If there is insufficient space, clear any unwanted files.
+Monitor the C request. Close the App and DB service tasks; snapshots will be taken care of automatically.
+Mount the ISO to the VM and start the upgrade process.(Automatically)
+Monitor the status in the VM through the LogView folder using Script1.
+Need to monitor the Change Request and Reuest Pending Change RITM's
+Close the App and DB service CTasks.
+Inform the server owner to start the application services and check the status.
+Attach the post-upgrade activity details, including: 1. Hostname and Properties, 2. Drive Details, 3. Screenshot
+Post upgradation completed
+1. Upgrade the VMware Tools.
+2. Change the hardware compatibility version to the latest version.
+3. Update the Guest OS version in the VMware Options console (OS Container).
+4. Inform the Patch team to push the latest updates.
+5. Uninstall the Carbon Black Agent from the old servers 2022 servers no need this agent.
