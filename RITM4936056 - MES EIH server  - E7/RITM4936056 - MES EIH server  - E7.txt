@@ -1,0 +1,43 @@
+Windows - Manual VMWare vCenter Virtual Server Build - WE7VMESEIHP001
+
+Description
+
+#Platform Details:
+Approved Template Change Number: CHG0148583
+Location: E7-DAL
+VMWare vCenter Name: ezvcsa001.myl.com
+Cluster: E7HADRS001
+Datacenter: ezvcsa001
+Operating System: Windows Server 2019
+Operating System Edition: Standard
+vCPUs: 4
+RAM (in GBs): 16
+
+#Storage Details:
+C Drive (in GBs): 120
+D Drive (in GBs): 100
+P Drive (in GBs): 32
+
+Additional Drives Required (As Applicable, in GBs)
+E Drive (in GBs): NA        
+T Drive (in GBs): NA
+L Drive (in GBs): NA
+
+#Network Details:
+IP Address: 10.4.37.106
+Requested VLAN: 1126
+E7-DVPG-PC-MES-1126
+
+#Additional utility Software Installation Details (As Applicable): N/A
+NOTE: Only approved utility software as per the Organization Standards shall be installed.
+
+Project Name: Crestron-Fusion - MES EIH server  - E7
+Application impacted - No, as this is a new build based on the business request: RITM4936056
+
+Environment: PROD
+
+Implementer name – Keshavamurti KV
+Approver name - Venugopal Reddy Konga /Antony Raj Maria Rajamani
+Business Approver: Yan Zou
+
+

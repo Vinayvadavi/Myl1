@@ -1,0 +1,5 @@
+Name,State,Status,Cluster,CPUs,NICs,Version
+e7gvm001.myl.com,Connected,Normal,7GHADRS002,40,8,8.0.2
+e7gvm002.myl.com,Connected,Normal,7GHADRS002,40,8,8.0.2
+e7gvm003.myl.com,Connected,Normal,7GHADRS002,48,16,8.0.2
+e7gvm004.myl.com,Connected,Normal,7GHADRS002,48,16,8.0.2

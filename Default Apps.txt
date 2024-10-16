@@ -1,0 +1,4 @@
+Default Apps:
+
+Putty
+Notepad++
