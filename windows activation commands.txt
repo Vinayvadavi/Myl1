@@ -1,6 +1,21 @@
+<<<<<<< HEAD
 /dli: displays basic license and activation information;
 /dlv: displays detailed license and activation information;
 /xpr: displays the expiration date of an installed license;
 /upk: uninstalls the existing license key;
 /cpky: removes license key information from the registry;
 /ipk [XXXXX-XXXXX-XXXXX-XXXXX-XXXXX]: changes the 25-digit license key or tries to activate the license if the provided key does not currently; and
+
+
+One more line added:
+=======
+/dli: displays basic license and activation information;
+/dlv: displays detailed license and activation information;
+/xpr: displays the expiration date of an installed license;
+/upk: uninstalls the existing license key;
+/cpky: removes license key information from the registry;
+/ipk [XXXXX-XXXXX-XXXXX-XXXXX-XXXXX]: changes the 25-digit license key or tries to activate the license if the provided key does not currently; and
+
+
+One more line added:
+>>>>>>> 24873405f6fb03f4feb24c261b5ee0f9649f511d
